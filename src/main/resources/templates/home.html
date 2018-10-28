@@ -1,0 +1,33 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>My Home</title>
+
+</head>
+
+<body>
+
+<font color="green"><h2>Hello <span th:text="${displayname}"/></h2></font>
+
+<div th:if="${msg}">
+    <h3 th:text="${msg}"/>
+</div>
+<div th:if="${error}">
+    <font color="red"><h3 th:text="${error}"/></font>
+</div>
+
+<font color="green"><h3>Welcome to File Pot !</h3></font>
+
+<form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="hidden" name="username" th:value="${username}" />
+    <input type="file" name="file" /><br/>
+    <input type="text" name="notes" /><br/><br/>
+    <input type="submit" value="Upload" />
+</form>
+
+</body>
+
+</html>

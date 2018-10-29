@@ -1,4 +1,4 @@
-# Filepot-CICD
+# Filepot
 
 ### Introduction
 Project 1: Filepot</br>
@@ -33,7 +33,43 @@ R53, EC2, AutoScaling Group, ELB,  RDS, S3, S3 Transfer Acceleration, Glacier, C
 2. Development tools/library:
 Spring Boot, AWS toolkit for Eclipse, Maven, Hibernate
 
+
 ### Sample Demo Screenshots
+- New User Registration Page
+![Fig.1 User signup Form](https://github.com/ytxiang/Filepot-CICD/raw/master/register.png)
+
+
+- User Signup Success Page
+![Fig.2 User signed up](https://github.com/ytxiang/Filepot-CICD/raw/master/signed-up.png)
+
+
+- User Login Page
+![Fig.3 Login Page](https://github.com/ytxiang/Filepot-CICD/raw/master/login.png)
+
+
+- Over 10MB File Uploading Failure
+![Fig.4 10MB File Size](https://github.com/ytxiang/Filepot-CICD/raw/master/over-10mb-upload-fail.png)
+
+
+- File List Page
+
+![Fig.5 File List Page](https://github.com/ytxiang/Filepot-CICD/raw/master/uploaded.png)
+
+
+- File Deletion Page
+![Fig.6 File Deletion Page](https://github.com/ytxiang/Filepot-CICD/raw/master/to-delete.png)
+
+
+- User Logout Page
+![Fig.7 User logout](https://github.com/ytxiang/Filepot-CICD/raw/master/to-logout.png)
+
+
+
+
+
+
+
+
 
 
 
